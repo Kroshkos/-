@@ -7,7 +7,7 @@ from middlewares.chekc_sub import CheckSubscription
 
 async def main():
     
-    bot = Bot("6265878181:AAGXfPN5SDN3W5UIPX0D3W8b_HylWO9ztlk")
+    bot = Bot("")
     dp = Dispatcher()
 
     dp.message.middleware(CheckSubscription())
